@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>        
+        <h2>Bem-vindo</h2>
+        <p>Entre na sua conta para continuar.</p>
+    </header>
+
+    <main>
+        <form autocomplete="off">
+
+            <div class="campo">
+                <input type="email" name="email" id="email" required placeholder=" ">
+                <label for="email">Endereço de email</label>
+            </div>
+
+            <div class="campo">
+                <input type="password" name="senha" id="senha" required placeholder=" ">
+                <label for="senha">Palavra-passe</label>
+            </div>
+
+            <div class="opções">
+                <label onclick="senhas()">
+                    <input type="checkbox" onclick="senhas()">
+                    Mostrar senha
+                </label>
+
+                <a href="#" target="_blank" rel="noopener noreferrer">Esqueceu a senha?</a>
+
+            </div>
+
+            <button type="submit">Entrar</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            Não tem conta?
+            <a href="secundario/criar.html" rel="noopener noreferrer">Criar conta</a>
+        </p>
+    </footer>
+    <script src="script/senha.js"></script>
+<!--Criado por Edmilson Chissaque-->
+</body>
+</html>
