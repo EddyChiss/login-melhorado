@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/sigin.css">
+    <title>criar conta</title>
+</head>
+<body>
+    <header>
+        <h2>Bem-vindo</h2>
+        <p> crie a sua conta para continuar.</p>
+    </header>
+    <main>
+        <form>
+            <div class="campo">
+                <input type="text" name="nome" id="nome" placeholder=" ">
+                <label for="nome">Inserir nome</label>
+            </div>
+
+            <div class="campo">
+                <input type="email" name="email" id="email" placeholder=" ">
+                <label for="email">Endereço e-mail</label>
+            </div>
+
+            <div class="campo">
+                <input type="password" name="senha0" id="senha0" placeholder=" ">
+                <label for="senha0">Palavra-passe</label>
+            </div>
+
+            <div class="campo">
+                <input type="password" name="senha1" id="senha1" placeholder=" ">
+                <label for="senha1">Confirmar palavra-passe</label>
+            </div>
+            
+            <label for="gen" aria-required="true"></label>
+            
+            <fieldset>
+                <legend>Gênero</legend>
+                <div class="genero">
+                    <div class="genero0">
+                        <input type="radio" name="gen" id="mas">
+                        <label for="mas">Masculino</label>
+                    </div>
+                    <div class="genero1">
+                        <input type="radio" name="gen" id="fem">
+                        <label for="fem">Femenino</label>
+                    </div>
+            </fieldset>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Tem conta? <a href="../index.html" rel="noopener noreferrer">Entrar</a></p>
+    </footer>
+</body>
+</html>
